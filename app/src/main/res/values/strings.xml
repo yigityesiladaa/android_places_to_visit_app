@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Places To Visit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_pass">Enter Your Password</string>
+    <string name="re_enter_your_pass">Re-enter Your Password</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="sign_in_text">Sign In</string>
+    <string name="not_registered_yet_text">Not Registered Yet?</string>
+    <string name="already_registered_text">Already Registered?</string>
+    <string name="forgot_password_text">Forgot Password</string>
+    <string name="forgot_password_screen_text">
+        Enter your e-mail address we will send you to reset your password
+    </string>
+    <string name="submit_text">Submit</string>
+    <string name="save_text">Save</string>
+    <string name="add_text">Add New Place</string>
+    <string name="action_sign_out_text">Sign Out</string>
+    <string name="title_text">Title</string>
+    <string name="city_text">City</string>
+    <string name="description_text">Description</string>
+    <string name="fid_error_text">FID Error!</string>
+    <string name="place_deleted_successfully_text">Place Deleted Successfully</string>
+    <string name="sign_out_text">Signed Out</string>
+    <string name="delete_place_text">Delete Place</string>
+    <string name="delete_pop_up_title_text">Are You Sure for Delete Place?</string>
+    <string name="delete_button_text">Delete</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="all_fields_required_text">All Fields Required!</string>
+    <string name="nothing_to_show_yet_text">Nothing to Show Yet</string>
+    <string name="invalid_email_text">Invalid Email!</string>
+    <string name="passwords_do_not_match_text">Passwords do not match!</string>
+    <string name="reset_password_mail_sent_text">Reset password email sent</string>
+    <string name="place_added_successfully_text">Place Added Successfully</string>
+</resources>
