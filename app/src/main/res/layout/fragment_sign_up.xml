@@ -4,9 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_image"
     tools:context=".ui.auth.signUp.SignUpFragment">
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,10 +23,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="16dp"
-            android:text="@string/sign_up_text"
             android:backgroundTint="@color/primary_color"
-            android:textAllCaps="false"
             android:fontFamily="@font/inter_regular"
+            android:text="@string/sign_up_text"
+            android:textAllCaps="false"
             app:layout_constraintBottom_toTopOf="@+id/textview32"
             app:layout_constraintEnd_toEndOf="@+id/cardView3"
             app:layout_constraintHorizontal_bias="0.0"
@@ -58,11 +61,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@color/white"
-                    android:hint="@string/enter_your_email"
                     android:fontFamily="@font/inter_regular"
+                    android:hint="@string/enter_your_email"
+                    android:textCursorDrawable="@color/primary_color"
                     android:inputType="textEmailAddress"
                     android:paddingStart="12dp"
-                    android:paddingTop="15dp"/>
+                    android:paddingTop="15dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
         </com.google.android.material.card.MaterialCardView>
@@ -96,8 +100,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/white"
-                    android:hint="@string/enter_your_pass"
                     android:fontFamily="@font/inter_regular"
+                    android:hint="@string/enter_your_pass"
                     android:inputType="textPassword"
                     android:paddingStart="12dp"
                     android:paddingTop="15dp" />
@@ -137,8 +141,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/white"
-                    android:hint="@string/re_enter_your_pass"
                     android:fontFamily="@font/inter_regular"
+                    android:hint="@string/re_enter_your_pass"
                     android:inputType="textPassword"
                     android:paddingStart="12dp"
                     android:paddingTop="15dp" />
@@ -153,9 +157,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
+            android:fontFamily="@font/inter_regular"
             android:text="@string/already_registered_text"
             android:textSize="16sp"
-            android:fontFamily="@font/inter_regular"
             app:layout_constraintBottom_toTopOf="@+id/btnSingInText"
             app:layout_constraintEnd_toEndOf="@+id/cardView3"
             app:layout_constraintStart_toStartOf="@+id/cardView3" />

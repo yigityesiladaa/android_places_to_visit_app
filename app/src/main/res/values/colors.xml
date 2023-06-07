@@ -12,4 +12,5 @@
     <color name="primary_color">#005003</color>
     <color name="secondary_color">#CCFFCE</color>
     <color name="transparent_color">#00CCFFCE</color>
+    <color name="black_shade">#4D000000</color>
 </resources>

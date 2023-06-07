@@ -106,7 +106,7 @@
                     app:layout_constraintStart_toStartOf="@+id/txtDescription"
                     app:layout_constraintTop_toBottomOf="@+id/txtDescription">
 
-                    <ImageButton
+                    <ImageView
                         android:id="@+id/btnHideDescImage"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
