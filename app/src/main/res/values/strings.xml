@@ -33,4 +33,6 @@
     <string name="passwords_do_not_match_text">Passwords do not match!</string>
     <string name="reset_password_mail_sent_text">Reset password email sent</string>
     <string name="place_added_successfully_text">Place Added Successfully</string>
+    <string name="show_less_text">show less</string>
+    <string name="show_more_text">show more</string>
 </resources>

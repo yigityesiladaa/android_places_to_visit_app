@@ -25,7 +25,7 @@ class CustomPlacesAdapter(private val context : Context)
         val txtTitle = rootView.findViewById<TextView>(R.id.txtTitle)
         val txtCity = rootView.findViewById<TextView>(R.id.txtCity)
         val txtDescription = rootView.findViewById<TextView>(R.id.txtDescription)
-        val btnHideDescImage = rootView.findViewById<ImageButton>(R.id.btnHideDescImage)
+        val showLessLayout = rootView.findViewById<ConstraintLayout>(R.id.showLessLayout)
         val btnShowDescImage = rootView.findViewById<ImageButton>(R.id.btnShowDescImage)
 
         val place = places[position]
@@ -38,13 +38,13 @@ class CustomPlacesAdapter(private val context : Context)
             place.isExpandable = true
             txtDescription.visibility = View.VISIBLE
             btnShowDescImage.visibility = View.GONE
-            btnHideDescImage.visibility = View.VISIBLE
+            showLessLayout.visibility = View.VISIBLE
         }
-        btnHideDescImage.setOnClickListener{
+        showLessLayout.setOnClickListener{
             place.isExpandable = false
             txtDescription.visibility = View.GONE
             btnShowDescImage.visibility = View.VISIBLE
-            btnHideDescImage.visibility = View.GONE
+            showLessLayout.visibility = View.GONE
         }
 
         txtTitle.text = place.title
