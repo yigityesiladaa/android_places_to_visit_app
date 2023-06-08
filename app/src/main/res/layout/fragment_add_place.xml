@@ -10,7 +10,7 @@
 
 
     <include
-        android:id="@+id/custom_toolbar"
+        android:id="@+id/customToolbar"
         layout="@layout/custom_add_route_toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         android:hint="@string/title_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/custom_toolbar">
+        app:layout_constraintTop_toBottomOf="@+id/customToolbar">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etTitle"

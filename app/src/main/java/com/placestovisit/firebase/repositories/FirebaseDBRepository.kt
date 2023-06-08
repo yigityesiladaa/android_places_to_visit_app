@@ -35,7 +35,6 @@ class FirebaseDBRepository : IFirebaseService<Place> {
 
     override fun getAll() : Task<DataSnapshot>?{
         val dbRef = getFirebaseDBReference()
-        Log.d("currentUserId",Utils.currentUserId.toString())
         Utils.currentUserId?.let {
             return dbRef.child(it).get()
         }

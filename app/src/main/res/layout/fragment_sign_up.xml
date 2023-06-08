@@ -63,7 +63,6 @@
                     android:background="@color/white"
                     android:fontFamily="@font/inter_regular"
                     android:hint="@string/enter_your_email"
-                    android:textCursorDrawable="@color/primary_color"
                     android:inputType="textEmailAddress"
                     android:paddingStart="12dp"
                     android:paddingTop="15dp" />
