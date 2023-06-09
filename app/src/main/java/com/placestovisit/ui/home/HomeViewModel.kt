@@ -1,6 +1,5 @@
 package com.placestovisit.ui.home
 
-import android.annotation.SuppressLint
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -31,7 +30,7 @@ class HomeViewModel : ViewModel() {
                 task.result.children.forEach { ds ->
                     val place = ds.getValue(Place::class.java)
                     place?.let {
-                        if (places.value != null) places.value!!.add(it) else places.value =
+                        if (places.value != null) places.value!!.add(0,it) else places.value =
                             mutableListOf(it)
                     }
                 }
@@ -47,7 +46,6 @@ class HomeViewModel : ViewModel() {
 
     fun signOut() {
         _firebaseAuthRepository.signOut()
-        Utils.currentUserId = ""
         _state.postValue(BaseState.Success(_context?.getString(R.string.sign_out_text)))
     }
 

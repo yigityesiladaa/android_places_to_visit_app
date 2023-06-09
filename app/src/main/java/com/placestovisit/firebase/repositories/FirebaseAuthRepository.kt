@@ -4,7 +4,6 @@ import android.util.Patterns
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
-import com.placestovisit.common.utils.Utils
 import com.placestovisit.firebase.services.IFirebaseAuthService
 
 class FirebaseAuthRepository : IFirebaseAuthService{
@@ -14,6 +13,11 @@ class FirebaseAuthRepository : IFirebaseAuthService{
         fun getAuthInstance() : FirebaseAuth{
             return FirebaseAuth.getInstance()
         }
+
+        fun getCurrentUserId() : String?{
+            return getAuthInstance().uid
+        }
+
     }
 
     fun isEmailValid(email : String) = Patterns.EMAIL_ADDRESS.matcher(email).matches()
@@ -37,14 +41,5 @@ class FirebaseAuthRepository : IFirebaseAuthService{
         val authInstance = getAuthInstance()
         return authInstance.sendPasswordResetEmail(email)
     }
-
-    fun setUID(){
-        authInstance.currentUser?.let {user->
-            Utils.currentUserId = user.uid
-        }
-    }
-
-
-
 
 }

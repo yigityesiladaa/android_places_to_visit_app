@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import androidx.navigation.fragment.findNavController
 import com.placestovisit.R
 import com.placestovisit.common.extensions.showToast
 import com.placestovisit.common.utils.Utils
@@ -41,7 +40,6 @@ class SignUpFragment : Fragment() {
         _navController = Navigation.findNavController(view)
         _authViewModel = ViewModelProvider(this)[AuthViewModel::class.java]
         _authViewModel.setContext(requireContext())
-        _authViewModel.setUID()
     }
 
     private fun registerEvents() {

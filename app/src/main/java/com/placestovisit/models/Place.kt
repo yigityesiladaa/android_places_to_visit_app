@@ -6,4 +6,5 @@ data class Place(
     val city : String = "",
     val description : String = "",
     var isExpandable : Boolean = true,
+    var imageUrl : String = ""
 )

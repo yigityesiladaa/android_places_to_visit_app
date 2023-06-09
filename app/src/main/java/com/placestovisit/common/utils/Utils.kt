@@ -8,7 +8,6 @@ import com.placestovisit.common.states.BaseState
 
 class Utils {
     companion object {
-        var currentUserId : String? = ""
 
         fun checkState(
             activity: FragmentActivity?,
@@ -53,5 +52,7 @@ class Utils {
                 }
             }
         }
+
+
     }
 }

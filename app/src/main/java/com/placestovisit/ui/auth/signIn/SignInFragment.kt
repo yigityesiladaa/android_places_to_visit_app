@@ -40,7 +40,6 @@ class SignInFragment : Fragment() {
         _navController = Navigation.findNavController(view)
         _authViewModel = ViewModelProvider(this)[AuthViewModel::class.java]
         _authViewModel.setContext(requireContext())
-        _authViewModel.setUID()
     }
 
     private fun registerEvents(){

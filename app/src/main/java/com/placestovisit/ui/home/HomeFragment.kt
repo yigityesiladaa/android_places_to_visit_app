@@ -13,6 +13,7 @@ import com.placestovisit.R
 import com.placestovisit.common.extensions.showAlertDialog
 import com.placestovisit.common.utils.Utils
 import com.placestovisit.databinding.FragmentHomeBinding
+import com.placestovisit.firebase.repositories.FirebaseAuthRepository
 import com.placestovisit.models.Place
 
 class HomeFragment : Fragment() {
@@ -94,7 +95,7 @@ class HomeFragment : Fragment() {
                 binding.progressBar.visibility = View.GONE
                 checkListIsEmpty()
             }
-            Utils.currentUserId?.let {userId->
+            FirebaseAuthRepository.getCurrentUserId()?.let { userId->
                 if (userId.isEmpty()) {
                     _navController.navigate(R.id.action_homeFragment_to_signInFragment)
                 }

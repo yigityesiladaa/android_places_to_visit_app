@@ -4,7 +4,6 @@ import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseUser
 import com.placestovisit.R
@@ -49,9 +48,6 @@ class AuthViewModel : ViewModel() {
         }
     }
 
-    fun setUID(){
-        _firebaseAuthRepository.setUID()
-    }
 
     fun isUserLoggedIn() : FirebaseUser?{
         return FirebaseAuthRepository.getAuthInstance().currentUser

@@ -10,7 +10,6 @@ import androidx.navigation.fragment.findNavController
 import com.placestovisit.common.utils.Utils
 import com.placestovisit.databinding.FragmentForgotPasswordFragmentBinding
 import com.placestovisit.ui.auth.AuthViewModel
-
 class ForgotPasswordFragment : Fragment() {
 
     private var _binding : FragmentForgotPasswordFragmentBinding? = null

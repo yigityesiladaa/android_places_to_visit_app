@@ -14,6 +14,7 @@
         Enter your e-mail address we will send you to reset your password
     </string>
     <string name="submit_text">Submit</string>
+    <string name="choose_image_text">Choose Image</string>
     <string name="save_text">Save</string>
     <string name="add_text">Add New Place</string>
     <string name="action_sign_out_text">Sign Out</string>
@@ -35,4 +36,5 @@
     <string name="place_added_successfully_text">Place Added Successfully</string>
     <string name="show_less_text">show less</string>
     <string name="show_more_text">show more</string>
+    <string name="title_activity_location">LocationActivity</string>
 </resources>

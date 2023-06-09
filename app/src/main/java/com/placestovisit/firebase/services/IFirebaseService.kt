@@ -2,7 +2,6 @@ package com.placestovisit.firebase.services
 
 import com.google.android.gms.tasks.Task
 import com.google.firebase.database.DataSnapshot
-import com.placestovisit.models.Place
 
 interface IFirebaseService<T> {
 

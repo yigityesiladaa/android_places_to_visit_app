@@ -63,8 +63,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
-                    android:visibility="gone"
                     android:backgroundTint="@android:color/transparent"
+                    android:visibility="gone"
                     app:layout_constraintBottom_toBottomOf="@+id/txtCity"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/txtTitle"
@@ -89,10 +89,8 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
-                    android:layout_marginBottom="8dp"
                     android:padding="8dp"
                     android:text="Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible."
-                    app:layout_constraintBottom_toTopOf="@+id/showLessLayout"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -103,8 +101,7 @@
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@+id/txtDescription"
-                    app:layout_constraintStart_toStartOf="@+id/txtDescription"
-                    app:layout_constraintTop_toBottomOf="@+id/txtDescription">
+                    app:layout_constraintStart_toStartOf="@+id/txtDescription">
 
                     <ImageView
                         android:id="@+id/btnHideDescImage"
@@ -126,6 +123,19 @@
                         app:layout_constraintEnd_toEndOf="@+id/btnHideDescImage"
                         app:layout_constraintStart_toStartOf="@+id/btnHideDescImage" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imgPlaceImage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/showLessLayout"
+                    app:layout_constraintEnd_toEndOf="@+id/txtDescription"
+                    app:layout_constraintStart_toStartOf="@+id/txtDescription"
+                    app:layout_constraintTop_toBottomOf="@+id/txtDescription"
+                    app:shapeAppearanceOverlay="@style/roundedImageView"
+                    tools:srcCompat="@tools:sample/avatars" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
