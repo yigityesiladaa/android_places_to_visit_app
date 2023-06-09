@@ -19,7 +19,7 @@ Compose LiveData | 1.4.3
 Glide | 4.15.1
 </p>
 
-## App Gifs
+### App Gifs
 
 Sign In  | Sign Up | Forgot Password
 ------------- | ------------- | -------------
@@ -33,7 +33,7 @@ All Fields Required Alert  | Delete
 ------------- | ------------- 
 <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_gifs/all_fields_required.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a> | <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_gifs/delete.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a> 
 
-## App Display Images
+### App Display Images
 
 Sign In Screen  | Delete Screen | Forgot Passsword Screen
 ------------- | ------------- | ------------- 
