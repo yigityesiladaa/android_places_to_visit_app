@@ -25,7 +25,7 @@ Sign In  | Sign Up | Forgot Password
 ------------- | ------------- | -------------
 <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_gifs/sign_in.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a> | <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_gifs/sign_up.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a> | <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_gifs/forgot_password.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a>
 
-Wron Password Alert  | Passswords Mismatch Alert | Add
+Wrong Password Alert  | Passswords Mismatch Alert | Add
 ------------- | ------------- | -------------
 <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_gifs/wrong_password.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a> | <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_gifs/passwords_mismatch.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a> | <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_gifs/add.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a>
 
