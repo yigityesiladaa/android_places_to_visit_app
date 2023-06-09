@@ -16,6 +16,7 @@ Firebase Auth | 22.0.0
 Firebase Database | 20.2.1
 Navigation  | 2.5.3
 Compose LiveData | 1.4.3
+Glide | 4.15.1
 </p>
 
 ## App Gifs
