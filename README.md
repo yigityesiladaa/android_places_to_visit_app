@@ -37,7 +37,7 @@ All Fields Required Alert  | Delete
 
 Sign In Screen  | Delete Screen | Forgot Passsword Screen
 ------------- | ------------- | ------------- 
-<a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_images/sign_in.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a> | <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_images/sign_up.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a> | <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_images/forgot_password.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a>
+<a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_images/sign_in.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a> | <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_images/sign_up.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400"/></a> | <a><img src="https://github.com/yigityesiladaa/android_places_to_visit_app/blob/main/app_images/forgot_password.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /></a>
 
 Add Screen  | Home Screen (w/List) | Delete UI
 ------------- | ------------- | -------------
