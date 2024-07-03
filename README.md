@@ -3,9 +3,9 @@ A mobile application developed as homework within the scope of Turkcell Kotlin B
 
 ## Tools Used in the Application
 
-<a href="https://kotlinlang.org/" rel="nofollow"><img alt="kotlin" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="40" style="max-width: 100%;">&nbsp;&nbsp;&nbsp;&nbsp;</a>
-<a href="https://developer.android.com/studio" rel="nofollow"><img alt="android_studio" src="https://github.com/yyigityesiladaa/yyigityesiladaa/blob/main/database_and_tool_icons/android_studio.svg" width="40" style="max-width: 100%;">&nbsp;&nbsp;&nbsp;&nbsp;</a>
-<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/>&nbsp;&nbsp;</a>
+<a href="https://kotlinlang.org/" rel="nofollow"><img alt="kotlin" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="40" style="max-width: 100%;"></a>
+<a href="https://developer.android.com/studio" rel="nofollow"><img alt="android_studio" src="https://github.com/yyigityesiladaa/yyigityesiladaa/blob/main/database_and_tool_icons/android_studio.svg" width="40" style="max-width: 100%;"></a>
+<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/></a>
 
 ### Features Used in the Application:
                     
